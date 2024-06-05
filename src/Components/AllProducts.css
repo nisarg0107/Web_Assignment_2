@@ -1,0 +1,33 @@
+.product-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .card-title {
+    font-weight: bold;
+  }
+    
+  .card-text {
+    color: #28a745;
+  }
+  
+  button {
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  input {
+    font-weight: bold;
+  }
+
+  
+  

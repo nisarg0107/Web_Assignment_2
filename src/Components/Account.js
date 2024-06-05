@@ -74,7 +74,7 @@ const AccountPage = () => {
                     <Label for="country" sm={2}>Country</Label>
                     <Input type="text" id="country" name="country" value={shippingAddress.country} onChange={handleChange} required />
                   </FormGroup>
-                  <Button type="submit" color="primary" className="mx-auto d-block">Save</Button>
+                  <Button type="submit" color="success" className="mx-auto d-block">Save</Button>
                 </Form>
               ) : (
                 <div className="text-muted">
@@ -89,7 +89,7 @@ const AccountPage = () => {
                 </div>
               )}
               {!showForm && (
-                <Button color="primary" className="mt-3 float-right" onClick={handleEdit}>Edit</Button>
+                <Button color="success" className="mt-3 float-right" onClick={handleEdit}>Edit</Button>
               )}
             </CardBody>
           </Card>

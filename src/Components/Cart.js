@@ -31,7 +31,7 @@ const CartPage = ({ cartItems, removeFromCart }) => {
               <hr />
               <p>Total Items: {cartItems.length}</p>
               <p>Total Price: ${cartItems.reduce((total, item) => total + item.price * item.quantity, 0).toFixed(2)}</p>
-              <button className="btn btn-primary btn-block mt-3" onClick={handleCheckout}>Checkout</button>
+              <button color='#28a745' onClick={handleCheckout}>Checkout</button>
             </div>
           </div>
         </div>

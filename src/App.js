@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#007BFF' }}> {/* Changed navbar background color */}
+        <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#28a745' }}> 
           <div className="container">
             <Link className="navbar-brand" to="/">Bar Shop</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">

@@ -3,7 +3,7 @@ import ProductsPage from './Components/AllProducts';
 import CartPage from './Components/Cart';
 import AccountPage from './Components/Account';
 import { BrowserRouter as Router, Route, Link, Routes } from 'react-router-dom';
-import 'bootstrap/dist/css/bootstrap.min.css'; 
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 const App = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -19,7 +19,7 @@ const App = () => {
   return (
     <Router>
       <div className="App">
-        <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#28a745' }}> 
+        <nav className="navbar navbar-expand-lg navbar-dark" style={{ backgroundColor: '#28a745' }}>
           <div className="container">
             <Link className="navbar-brand" to="/">Bar Shop</Link>
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +28,13 @@ const App = () => {
             <div className="collapse navbar-collapse" id="navbarNav">
               <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
-                  <Link className="nav-link" to="/" style={{ color: '#FFF' }}>Home</Link> {/* Changed link text color */}
+                  <Link className="nav-link" to="/" style={{ color: '#FFF' }}>Home</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/cart" style={{ color: '#FFF' }}>Cart ({cartItems.length})</Link> {/* Changed link text color */}
+                  <Link className="nav-link" to="/cart" style={{ color: '#FFF' }}>Cart ({cartItems.length})</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/account" style={{ color: '#FFF' }}>My Account</Link> {/* Changed link text color */}
+                  <Link className="nav-link" to="/account" style={{ color: '#FFF' }}>My Account</Link>
                 </li>
               </ul>
             </div>
